@@ -113,26 +113,32 @@ body{
                 /* ----- Section Collection ----- */
 .collectionSelection{
     height: 75vh;
-    background-color: black;
+    background-color: #ffffff;
 }
 
                 /* ----- Section Spetial ----- */
 .specialesSection{
     height: 75vh;
-    background-color: red;
+    background-color: #ffffff;
 }
                 /* ----- Section Blog ----- */
 .blogsSection{
     height: 75vh;
-    background-color: yellow;
+    background-color: #ffffff;
 }
                 /* ----- Section About Us ----- */
 .aboutSection{
     height: 75vh;
-    background-color: blue;
+    background-color: #fbfbfb;
 }
                 /* ----- Section Popular ----- */
 .popularSectiongit{
     height: 75vh;
     background-color: pink;
+}
+
+                /* ----- footer ----- */
+.footer{
+    height: 25vh;
+    background-color: #212529;
 }
