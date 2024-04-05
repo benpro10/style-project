@@ -112,7 +112,7 @@ body{
                 /* ----- scrolling text ----- */
                 /* ----- Section Collection ----- */
 .collectionSelection{
-    height: 75vh;
+    /* height: 75vh; */
     background-color: #ffffff;
     width: 90%;
     margin: 0 auto;
@@ -163,16 +163,34 @@ body{
 }
 
 .collectionSelection__pictures--size{
-    width:255px ;
-    height: 255px;
+    width:269px ;
+    height: 269px;
 }
 
-                /* ----- Section Spetial -----
+                /* ----- Section Spetial ----- */
 .specialesSection{
-    height: 75vh;
+    /* height: 50vh; */
     background-color: #ffffff;
+    width: 90%;
+    margin: 0 auto;
 }
-                ----- Section Blog -----
+.specialesSelection__text{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+    margin-top: 50px;
+}
+.specialeSection__container{
+    width: 100%;
+    display: flex;
+    gap: 20px;
+}
+.specialesSection__pictures--size{
+    width: 100%;
+}
+                /* ----- Section Blog -----
 .blogsSection{
     height: 75vh;
     background-color: #ffffff;
