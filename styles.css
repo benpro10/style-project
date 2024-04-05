@@ -114,31 +114,82 @@ body{
 .collectionSelection{
     height: 75vh;
     background-color: #ffffff;
+    width: 90%;
+    margin: 0 auto;
+}
+.collectionSelection__text{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 40px;
+    margin-top: 50px;
+}
+.collectionSelection__btn{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.collectionSelection__btn--borderRadius{
+    text-decoration: none;
+    font-size: 25px;
+    border: 1px solid rgb(85, 85, 85);
+    padding: 10px 30px;
+    border-radius: 25px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    list-style-type: none;
+    font-size: medium;
+    color: black;
+}
+.collectionSelection__btn--hover:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    background-color: #0095c7;
+    color: white;
+}
+.collectionSelection__btn--transition02{
+    transition: transform 0.2s;
+
+}
+.collectionSelection__pictures{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 50px;
 }
 
-                /* ----- Section Spetial ----- */
+.collectionSelection__pictures--size{
+    width:255px ;
+    height: 255px;
+}
+
+                /* ----- Section Spetial -----
 .specialesSection{
     height: 75vh;
     background-color: #ffffff;
 }
-                /* ----- Section Blog ----- */
+                ----- Section Blog -----
 .blogsSection{
     height: 75vh;
     background-color: #ffffff;
 }
-                /* ----- Section About Us ----- */
+                ----- Section About Us -----
 .aboutSection{
     height: 75vh;
     background-color: #fbfbfb;
 }
-                /* ----- Section Popular ----- */
+                ----- Section Popular -----
 .popularSectiongit{
     height: 75vh;
     background-color: pink;
 }
 
-                /* ----- footer ----- */
+                ----- footer -----
 .footer{
     height: 25vh;
     background-color: #212529;
-}
+} */
