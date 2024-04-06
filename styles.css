@@ -107,6 +107,8 @@ body{
 .homeSection{
     background: url(images/banner-img-1.jpg) center/cover;
     height: 85vh;
+    width: 90%;
+    margin: 0 auto;
 }
 
                 /* ----- scrolling text ----- */
@@ -166,6 +168,13 @@ body{
     width:269px ;
     height: 269px;
 }
+.collectionSelection__picturesInfos{
+    text-align: center;
+    margin-top: 10px;
+}
+.collectionSelection--iconRed{
+    color: #008ac0;
+}
 
                 /* ----- Section Spetial ----- */
 .specialesSection{
@@ -189,6 +198,40 @@ body{
 }
 .specialesSection__pictures--size{
     width: 100%;
+}
+.specialesSection__pictures--hover:hover{
+    transform: scale(1.1);
+}
+.specialesSection__pictures--transition02{
+    transition: transform 0.2s;
+}
+.specialesSection__picturesInfos{
+    text-align: center;
+    display: block;
+    unicode-bidi: isolate;
+}
+.specialesSection__manage{
+    display: block;
+    margin-top: 20px;
+    width: 80%;
+}
+.specialesSection__picturesInfos--poppins-regular{
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: medium;
+}
+.specialesSection__picturesInfos--fontweigth700{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: medium;
+}
+.specialSelection__containerOffersSales{
+    background: url(images/offer_img.jpg) center/cover;
+    height: 75vh;
+    width: 100%;
+    margin-top: 50px;
 }
                 /* ----- Section Blog -----
 .blogsSection{
