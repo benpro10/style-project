@@ -107,8 +107,8 @@ body{
 .homeSection{
     background: url(images/banner-img-1.jpg) center/cover;
     height: 85vh;
-    width: 90%;
-    margin: 0 auto;
+    width: 100%;
+    /* margin: 0 auto; */
 }
 
                 /* ----- scrolling text ----- */
